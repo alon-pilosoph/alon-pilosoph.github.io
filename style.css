@@ -64,13 +64,9 @@ h2 {
 }
 
 h3 {
+    display: inline;
     font-size: 1rem;
     margin-bottom: 0px;
-    font-weight: normal;
-}
-
-h3 span {
-    font-weight: bold;
 }
 
 #about p {
