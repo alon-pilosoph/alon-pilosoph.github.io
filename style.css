@@ -1,0 +1,100 @@
+body {
+    background-color: #011627;
+    color: #D6DEEB;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#content {
+    width: 95%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#about {
+    margin-bottom: 50px;
+}
+
+#about a {
+    color: #7FDBCA;
+}
+
+.highlight1 {
+    color: #7FDBCA;
+}
+
+.highlight2 {
+    color: #FFCB8B;
+    white-space: nowrap;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px 0 10px 0;
+}
+
+.devicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.devicons i {
+    margin: 0 5px;
+}
+
+.right-meow {
+    color: #A5B4FC;
+}
+
+.benchmate {
+    color: #B9D3C2;
+}
+
+.captains-log {
+    color: #2AA198;
+}
+
+h1,
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: 0px;
+    font-weight: normal;
+}
+
+h3 span {
+    font-weight: bold;
+}
+
+#about p {
+    margin-top: 0;
+}
+
+.project {
+    margin-bottom: 50px;
+}
+
+.project:last-child {
+    margin-bottom: 0;
+}
+
+.project a {
+    color: #D6DEEB;
+}
+
+::-moz-selection {
+    color: #011627;
+    background: #82AAFF;
+}
+
+::selection {
+    color: #011627;
+    background: #82AAFF;
+}
